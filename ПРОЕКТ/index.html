@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EndlessRide – Motorcycle Tours</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav id="navbar">
+    <div class="container nav-inner">
+      <a href="#hero" class="logo">Endless<span>Ride</span></a>
+
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#tours">Tours</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="nav-social">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+
+      <div class="burger" id="burger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+    <ul class="mobile-nav" id="mobileNav">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#tours">Tours</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#blog">Blog</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+<section id="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-red-shape"></div>
+
+  <div class="hero-content">
+    <h1>
+      2,500 tours in over<br>
+      <em>100 destinations</em><br>
+      and 36 years of experience!
+    </h1>
+  </div>
+
+  <img class="hero-img" src="https://www.motoshop.ua/content/images/33/480x299l85nn0/ktm-1390-super-adventure-s-34433012959635.png" alt="Motorcycle">
+</section>
+
+  <!-- ===== TOUR PACKAGES ===== -->
+  <section id="tours">
+    <div class="container">
+      <h2 class="section-title">Tour Packages</h2>
+      <p class="section-subtitle">Choose from our expertly crafted motorcycle tour packages across the globe's most
+        stunning landscapes.</p>
+      <div class="tours-grid">
+        <div class="tour-card">
+          <div class="tour-card-img">
+            <img src="https://d29c80i09kxy2a.cloudfront.net/custom/blog-post-photo/mobile/gallery/5b9f268499378.jpg"
+              alt="Motorcycle Expeditions" />
+            <div class="tour-price-tag">
+              <span class="price">$100</span>
+              <span class="per">per person</span>
+            </div>
+          </div>
+          <div class="tour-info">
+            <h3>Motorcycle Expeditions</h3>
+            <p>Discover breathtaking mountain trails and remote wilderness on a guided expedition built for the true
+              adventurer.</p>
+            <a href="#contact" class="btn">Book Now</a>
+          </div>
+        </div>
+        <div class="tour-card">
+          <div class="tour-card-img">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2V_iD2S8TugaHoa6CmRYbrw7RtiLJ_a0HXn2vzlfg7IGCAwrv"
+              alt="Mountains Motorcycle Tours" />
+            <div class="tour-price-tag">
+              <span class="price">$100</span>
+              <span class="per">per person</span>
+            </div>
+          </div>
+          <div class="tour-info">
+            <h3>Mountains Motorcycle Tours</h3>
+            <p>Ride through iconic Alpine passes, dramatic valleys and scenic ridge roads with an expert guide by your
+              side.</p>
+            <a href="#contact" class="btn">Book Now</a>
+          </div>
+        </div>
+        <div class="tour-card">
+          <div class="tour-card-img">
+            <img src="https://farm5.staticflickr.com/4207/35271495311_1964918813_b.jpg" alt="Adventure Tours" />
+            <div class="tour-price-tag">
+              <span class="price">$100</span>
+              <span class="per">per person</span>
+            </div>
+          </div>
+          <div class="tour-info">
+            <h3>Motorcycle Adventure Tours</h3>
+            <p>Off-road, on-road or a mix — our adventure tours push the boundaries and deliver unforgettable memories.
+            </p>
+            <a href="#contact" class="btn">Book Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section id="testimonials">
+    <div class="container">
+      <h2 class="section-title">We Are <span style="color:var(--red)">World Wide</span></h2>
+      <p class="section-subtitle">Hear from riders who have explored the world with EndlessRide — their stories inspire
+        every journey.</p>
+      <div style="position:relative; max-width:800px; margin:0 auto;">
+        <button class="carousel-prev" id="prevBtn" aria-label="Previous"><i class="fas fa-chevron-left"></i></button>
+        <div class="testimonial-carousel">
+          <div class="testimonial-track" id="testimonialTrack">
+            <!-- Slide 1 -->
+            <div class="testimonial-slide">
+              <div class="testimonial-text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                  et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                <div class="testimonial-author">
+                  <div class="name">John Smith</div>
+                  <div class="role">Solo Traveller</div>
+                </div>
+              </div>
+              <div class="testimonial-img">
+                <img src="https://media.istockphoto.com/id/1766352902/ru/%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE/%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D0%B5-%D0%BB%D1%8E%D0%B4%D0%B5%D0%B9-%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE-%D1%80%D0%B0%D0%B7%D0%BD%D1%8B%D1%85-%D1%80%D0%B0%D1%81-%D0%BC%D1%83%D0%BB%D1%8C%D1%82%D0%B8%D1%8D%D1%82%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9-%D0%BF%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82-%D0%BB%D0%B8%D1%86%D0%B0-%D1%87%D0%B5%D0%BB%D0%BE%D0%B2%D0%B5%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5-%D1%81%D0%BC%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D0%B5.jpg?s=640x640&k=20&c=hRaZfk_0-ye91rRAzmwzQ_RBkSPMuztoWeq9mWNOIqU=" alt="John Smith" />
+              </div>
+            </div>
+            <!-- Slide 2 -->
+            <div class="testimonial-slide">
+              <div class="testimonial-text">
+                <p>The mountain tour was absolutely incredible. Our guide knew every switchback and scenic overlook.
+                  I've been on 12 tours and EndlessRide is by far the best experience I've had on two wheels.</p>
+                <div class="testimonial-author">
+                  <div class="name">Maria González</div>
+                  <div class="role">Adventure Rider</div>
+                </div>
+              </div>
+              <div class="testimonial-img">
+                <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&q=80"
+                  alt="Maria González" />
+              </div>
+            </div>
+            <!-- Slide 3 -->
+            <div class="testimonial-slide">
+              <div class="testimonial-text">
+                <p>From the moment I arrived until I reluctantly left, everything was perfect. The route planning,
+                  accommodations, and the team's passion for motorcycling made this trip unforgettable.</p>
+                <div class="testimonial-author">
+                  <div class="name">David Chen</div>
+                  <div class="role">Weekend Warrior</div>
+                </div>
+              </div>
+              <div class="testimonial-img">
+                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&q=80" alt="David Chen" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-next" id="nextBtn" aria-label="Next"><i class="fas fa-chevron-right"></i></button>
+      </div>
+      <div class="carousel-controls" id="carouselDots"></div>
+    </div>
+  </section>
+
+
+
+ 
+
+  <section class="about">
+    <div class="about-text">
+        <h2>About Us</h2>
+        <div class="underline"></div>
+
+        <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s.
+        </p>
+
+        <p>
+            When an unknown printer took a galley of type and scrambled it to
+            make a type specimen book. It has survived not only five centuries.
+        </p>
+
+        <a href="#" class="btn">Learn More</a>
+    </div>
+
+    <div class="about-img">
+        <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=900" alt="About">
+    </div>
+</section>
+
+
+
+
+  <!-- ===== CONTACT ===== -->
+<section class="contacts">
+    <div class="contact-box">
+        <div class="icon">✉</div>
+        <div>
+            <h3>Email</h3>
+            <p>free@psdfreebies.com</p>
+            <p>free@psdfreebies.com</p>
+        </div>
+    </div>
+
+    <div class="contact-box">
+        <div class="icon">📱</div>
+        <div>
+            <h3>Phone</h3>
+            <p>+123 456 7890</p>
+            <p>+123 456 7890</p>
+        </div>
+    </div>
+
+    <div class="contact-box">
+        <div class="icon">📍</div>
+        <div>
+            <h3>Address</h3>
+            <p>123, Main Road, New City,</p>
+            <p>My Country 123456</p>
+        </div>
+    </div>
+</section>
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="footer-social">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-google-plus-g"></i></a>
+      <a href="#"><i class="fab fa-vk"></i></a>
+      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-youtube"></i></a>
+    </div>
+    <p>Designed by <span>Grytsamaksym</span> &copy; 2026. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
